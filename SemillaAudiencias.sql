@@ -2,12 +2,6 @@
 GO
 /****** Object:  Database [Audiencia]    Script Date: 28/08/2025 8:15:25 ******/
 CREATE DATABASE [Audiencia]
- CONTAINMENT = NONE
- ON  PRIMARY 
-( NAME = N'Audiencia', FILENAME = N'C:\Users\SAE Chaco\Audiencia.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
- LOG ON 
-( NAME = N'Audiencia_log', FILENAME = N'C:\Users\SAE Chaco\Audiencia_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
- WITH CATALOG_COLLATION = DATABASE_DEFAULT
 GO
 ALTER DATABASE [Audiencia] SET COMPATIBILITY_LEVEL = 150
 GO
@@ -260,3 +254,4 @@ USE [master]
 GO
 ALTER DATABASE [Audiencia] SET  READ_WRITE 
 GO
+
